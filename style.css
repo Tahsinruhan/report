@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css2?family=Arima&family=Poppins:wght@500&display=swap');
+/* font  */
+
+
+/* banner styles */
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+header {
+    background-color: #2D25A0;
+
+
+    width: 100%;
+    height: 630px;
+}
+
+header:hover .banner-full .banner-s-half .banner-img img {
+    transform: scale(1.2);
+    transition: 0.4s ease-in;
+}
+
+.banner-full {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.banner-half {
+    padding-left: 190px;
+    padding-top: 190px;
+}
+
+.banner-text {
+    color: whitesmoke;
+    font-size: 10px;
+}
+
+.button {
+    background-color: brown;
+    height: 40px;
+    width: 150px;
+    padding-left: 15px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+
+
+}
+
+.button a {
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 20px;
+
+}
+
+.banner-img img {
+    width: 556px;
+    height: 438px;
+    padding-top: 120px;
+    padding-right: 141px;
+    padding-bottom: 86px;
+}
+
+.banner-text {
+    font-size: 64px;
+    height: 230px;
+    width: 485px;
+}
+
+
+/* section in player */
+.pl {
+    padding-left: 180px;
+    padding-right: 180px;
+    background-color: rgb(248, 255, 250);
+}
+
+/*  */
+.player-details {}
+
+.players {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    grid-row-gap: 10px;
+    margin-top: 25px;
+
+}
+
+.player {
+    width: 330px;
+    height: 435px;
+    border: 10px solid rgba(247, 248, 240, 0.619);
+    border-radius: 10px;
+    background-color: white;
+}
+
+.player-image img {
+    padding-left: 15px;
+    width: 300px;
+}
+
+.player-info {
+    text-align: left;
+    width: 300px;
+    padding-left: 15px;
+}
+
+.player-info h2 {
+    font-size: 180%;
+}
+
+.player-info p {
+    font-size: 115%;
+}
+
+.fa-solid {
+    padding-left: 7px;
+    padding-top: 3px;
+}
+
+
+/* Third sectioon  */
+
+.third-part {
+    background-color: rgb(248, 255, 250);
+    width: 100%;
+}
+
+.game-details {
+    display: flex;
+}
+
+.game-info {
+    width: 45%;
+    padding-top: 200px;
+    padding-left: 180px;
+}
+
+.game-info h1 {
+    font-weight: 700;
+    font-size: 54px;
+    padding-bottom: 15px;
+    color: navy;
+}
+
+.game-info p {
+    font-size: 25px;
+    padding-bottom: 20px;
+}
+
+.game-image {
+    padding-top: 150px;
+    padding-right: 200px;
+}
+
+.game-image img {
+    height: 390px;
+    width: 500px;
+
+}
+
+.football-logo img {
+    width: 35%;
+    padding-left: 30%;
+    padding-top: 190px;
+}
+
+.icon {
+    padding-left: 42%;
+    padding-top: 30px;
+}
+
+.icon a {
+    text-decoration: none;
+    font-size: 40px;
+    padding-right: 20px;
+}
+
+footer {
+    font-size: 25px;
+    padding-left: 40%;
+    padding-top: 20px;
+    background-color: rgb(248, 255, 250;
+    }
+
+
+
+    /* mobile screens */
+
+    @media only screen and (max-width:688px) {
+        .player {
+            background-color: aquamarine;
+        }
+
+        .banner-half {
+            background-color: aqua;
+        }
+    }
